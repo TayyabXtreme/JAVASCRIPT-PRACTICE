@@ -1,69 +1,130 @@
-#FAVOURITES{
-    color: #016B76;
-}
-
-#space{
-    padding: 20px;
-}
-
-#aksath{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-#carouselExampleIndicators{
-    padding: 50px;
-}
-
-#red{
-    color: red;
-    margin-left: 5px;
+.marquee{
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
     
 }
-
-#cut{
-    text-decoration: line-through;
-    font-weight: bold;
-    margin-right: 5px;
+.sideho{
+    margin-left: 100px;
 }
 
+.navbar{
+    background-color: white !important;
+}
 
-#sathi{
+.green{
+    color: #016B76;
+    ;
+}
+
+.space{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    padding: 10px 40px;
+
+}
+
+.sidha{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
-#circle{
+.cut{
+    text-decoration: line-through;
+    margin-right: 4px;
+}
+
+.red{
+    color: red;
+    margin-left: 4px;
+}
+
+
+.imagechange{
+    height: 430px;
+    background-size: cover;
+    background-image: url('https://ninefigures.com/cdn/shop/files/6_180a56f3-98a5-47e7-a84a-8de3d0cdbc0a_1920x.webp?v=1719233293');
+}
+
+.img1:hover{
+    display: none;
+    height: 430px;
+
+}
+
+.sidha-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+}
+
+.dhaka{
+   display: flex;
+   justify-content: end;
+   height: 50px;
+}
+
+.circle{
     border: 3px solid black;
-    padding: 10px;
     border-radius: 50%;
+    padding: 10px;
 }
 
 .poster{
+    margin-top: 50px;
     width: 100%;
     height: 600px;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    padding-left: 100px;
     justify-content: center;
-    background-image: url('//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=375 375w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=740 740w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=750 750w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1100 1100w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1370 1370w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1500 1500w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1770 1770w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1780 1780w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1880 1880w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=2000 2000w');
+    flex-direction: column; 
+    padding-left: 100px;
+    background-image: url('https://ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1370');
 }
-
-.card{
-    border: none !important;
-    border-radius: 0 !important;
-}
-
 
 .btn{
-    width: 150px !important;
-    height: 50px !important;
     border-radius: 0 !important;
-    font-weight: bolder !important; 
+    width: 150px;
+    font-weight: bolder !important;
+
 }
 
-.mota{
-    font-weight: 700;
-    font-family: "Anybody", sans-serif;
+.poster-2{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.hov:hover{
+    scale: 0px 10px;
+}
+
+@media screen and (max-width: 768px){
+
+
+    .poster{
+        background-position:center;
+        margin-top: 50px;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+        padding-left: 100px;
+        background-image: url('https://ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1370');
+    }
+    
+    .poster-2{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 }
