@@ -1,0 +1,69 @@
+#FAVOURITES{
+    color: #016B76;
+}
+
+#space{
+    padding: 20px;
+}
+
+#aksath{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#carouselExampleIndicators{
+    padding: 50px;
+}
+
+#red{
+    color: red;
+    margin-left: 5px;
+    
+}
+
+#cut{
+    text-decoration: line-through;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+#sathi{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#circle{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.poster{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: center;
+    background-image: url('//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=375 375w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=740 740w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=750 750w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1100 1100w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1370 1370w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1500 1500w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1770 1770w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1780 1780w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=1880 1880w,//ninefigures.com/cdn/shop/files/women_3.jpg?v=1717760708&width=2000 2000w');
+}
+
+.card{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+.btn{
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 0 !important;
+    font-weight: bolder !important; 
+}
+
+.mota{
+    font-weight: 700;
+    font-family: "Anybody", sans-serif;
+}
