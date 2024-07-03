@@ -1,0 +1,133 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+
+body{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container{
+    
+    /* border: 2px solid black; */
+/*  property name: width of border, border type ,border color        */
+
+   
+    width: 320px;
+    min-height: 612px;
+    max-height: 1800px;
+
+    
+    
+    /* 16px > 1em */
+    /* 32px > 2em */
+    /* 24px > 1.5em */
+
+    /*   px,vh/vw,em,% */
+
+
+    /* margin: auto; */
+    /* margin bich mai liyata hai x axis ki taraf sa y axis ki taraf sa nahi */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    
+    gap: 10px;
+}
+.full{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+input{
+    width: 320px;
+    height: 53px;
+    color: #432000;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #DCE1E3;
+    border: none;
+    /* https://flatuicolors.com/ */
+}
+
+.addBtn{
+    width: 320px;
+    height: 53px;
+    background-color: #ac485a;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.box{
+    border: 1px solid #ac485a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.box h1{
+    text-align: center;
+    color: #ac485a;
+    font-family: sans-serif;
+
+}
+
+.box div{
+    border-top: 1px solid #ac485a;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div p{
+    flex: 2;
+    font-weight: bold;
+    /* font-family: sans-serif; */
+}
+
+.box div button{
+    flex: 1;
+    color: white;
+    background-color: #ac485a;
+    border-radius: 5px;
+    border: none;
+    width: 69px;
+    height: 27px;
+}
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;   
+    min-height: 200px;
+    max-height: 700px;
+ 
+}

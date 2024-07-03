@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+
+}
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik',sans-serif;
+    margin: 10px 0px;
+}
+img{
+    width: 150px;
+    margin: 0 auto;
+   
+}
+
+
+button{
+    color: #fdfdfd;
+    background-color: #ac485a;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik',sans-serif;
+}
+
+#cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #ac485a;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    
+
+}
+h1{
+    text-align: center;
+    font-family: 'Rubik',sans-serif;
+    color: #ac485a;
+    margin: 20px 0px;
+    
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.straight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    border-top: 1px solid #ac485a;
+    gap: 10px;
+    
+}
+.straight button{
+    background-color: #ac485a;
+    color: #fdfdfd;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    flex: 1;
+    width: 50%;
+    
+    
+}
+.straight p{
+    flex: 2;
+}
+
+.error{
+    color: #ac485a;
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    margin: 10px 0px;
+    display: none;
+}
+
+.notfound{
+    color: #ac485a;
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+

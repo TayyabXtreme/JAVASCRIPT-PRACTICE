@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://th.bing.com/th/id/OIF.qmSZU56HX70fcHtLFtm5nQ?w=192&h=192&c=7&r=0&o=5&pid=1.7" alt="">
+        <input type="text"  id="input-field" placeholder="Bread">
+        <p class="error" id="error">Error not empty allow</p>
+        <button id="add-button" >Add to cart</button>
+        <input type="text" id="search" placeholder="Search">
+        <div id="cart">
+            <h1>Cart</h1>
+            <ul id="cart-items">
+                
+            </ul>
+        </div>  
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+    <script>
+     
+    
+       
+        const firebaseConfig = {
+          apiKey: "AIzaSyBubvU0C6GvUQsRax1oV-xWAXtOK2Crrtg",
+          authDomain: "figma-clone-89d94.firebaseapp.com",
+          projectId: "figma-clone-89d94",
+          storageBucket: "figma-clone-89d94.appspot.com",
+          messagingSenderId: "360079351279",
+          appId: "1:360079351279:web:b71da581100cd9d427aa1a",
+          measurementId: "G-8HHTDBR6QB"
+        };
+      
+        firebase.initializeApp(firebaseConfig);
+       
+      </script>
+     
+    <script src="./app.js"></script>
+    
+</body>
+</html>
