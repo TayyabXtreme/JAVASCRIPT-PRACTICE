@@ -1,0 +1,86 @@
+.container{
+    background-color: #48b9e3;
+    width: 40vw;
+    height:80vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box-1{
+    width: 90%;
+
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+ 
+}
+.box-1 p{
+    font-size: 1.5rem;
+    margin-left: 10px;
+
+}
+
+
+.box-2{
+    width: 90%;
+    height: 70%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.384);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.box-2 h2{
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    display: flex;
+    font-size: 5em;
+    color: white;
+    width: 15vw;
+    justify-content: space-between;
+
+}
+.box span i{
+    color: rgb(255, 217, 0);
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0.39);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 166, 0, 0.774);
+    
+
+    
+}
+
+.box-2 p{
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-2 .daba{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: white;
+    font-size: 1.5em;
+}
