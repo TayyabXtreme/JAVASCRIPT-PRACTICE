@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#card{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: none;
+    gap: 10px;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.container-1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
