@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(45, 45, 131);
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+    
+}
+p{
+    margin: 50px;
+    padding: 10px;
+}
