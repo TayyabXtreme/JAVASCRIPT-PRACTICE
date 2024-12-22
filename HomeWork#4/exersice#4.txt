@@ -1,0 +1,31 @@
+//1. Declare 3 variables in one statement.
+4var a=5,b=4,c=3;
+
+//2. Declare 5 legal & 5 illegal variable names.
+
+                // legal variables
+
+var legal1="hello";
+var $legal2="hey";
+var _legal3="whatsup";
+var leg-al="kaisay ho";
+var or$="assalam";
+
+		//Illegal variables
+
+var 3illegal ="by";
+var @illegal ="good by";
+var ill egal ="not good";
+var let ="byby";
+var 0illegal ="notby";
+
+
+//3. Display this in your browser
+a) A heading stating “Rules for naming JS variables”
+b) Variable names can only contain _number_, _$_,
+__'_'__ and _letter_.
+For example $my_1stVariable
+c) Variables must begin with a _$_, _'_'_ or
+_letter_. For example $name, _name or name
+d) Variable names are case _sensitive_
+e) Variable names should not be JS _keyword_
