@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(42, 42, 114);
+}
+.border{
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+.figure{
+    width: 19%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+}
+.figure img{
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+.team{
+    border: 1px solid black;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    margin-top: 120px;
+    width: 100px;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+figure img{
+    border: 1px solid black;
+    width: 100px;
+}
+figcaption{
+    text-align: center;
+}
+.verses{
+    margin-top: auto;
+    margin-bottom: auto;
+}

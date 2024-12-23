@@ -1,0 +1,45 @@
+first class:(2/9/2023)
+alert("write any thing") =>give alert
+
+
+
+
+
+Second class:(9/9/2023)
+
+varialbes
+difine by var=ES5,let&const=ES6
+---------
+1)there are two types of dataypes
+
+a)primitive datatypes:
+string,number,bool.
+only store single data.
+
+b)non-primitive-object:
+Array,object.
+store multiple data.
+
+------------------
+date is not datatype it is class.
+date is standard form (UTC).
+
+
+
+
+
+declaration: no value assigned.
+initialization: value assigned.
+
+
+conosle:class
+console.log():dot sa phelay jo aay wo class hai;
+
+
+function =>direct call.
+method=>need class then class.
+
+function:is made by outside the class.
+method :is made by inside class.
+
+;=state terminator(means statement is end).
