@@ -1,0 +1,23 @@
+table{
+    width: 600px;
+     border: 1px solid gray;
+     text-align: center;
+     border-collapse: collapse;
+     height: 302px;
+     
+     /* display: inline-; */
+}
+tr{
+    width: 100%;
+    border: 1px solid black;
+    
+    text-align: center;
+    height: 100px;
+}
+td{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+   
+}
