@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(20, 66, 126);
+        }
+        .main{
+            /* border: 1px solid black; */
+            width: 900px;
+            height: 600px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .heading{
+            color: rgb(0, 174, 255);
+            text-align: center;
+        }
+        .input{
+            width: 600px;
+            height: 80px;
+            /* border: 1px solid black; */
+            border-radius: 10px;
+            background-color:none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .input input{
+            width: 70%;
+            height: 40px;
+            padding: 0%;
+            border-radius: 5px;
+            background-color: #fff;
+            border: nones;
+            box-shadow: none;
+            color: rgb(43, 42, 42);
+            padding-left: 10px;
+            font-size: 1.2em;
+        }
+        .input input:focus{
+            outline: none;
+        }
+        .add {
+            margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: #fff;
+  background: #008000;
+  font-weight: bold;
+  /* background: linear-gradient(0deg, rgb(green) 0%, rgb(rgb(90, 128, 0)) 100%); */
+  border: none;
+  /* box-shadow: 0 0.7em 1.5em -0.5em #14a73e98; */
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.box{
+    width: 500px;
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    /* overflow: scroll; */
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+li{
+    margin: 10px 0px 0px 0px;
+    background-color: #68f74ba8;
+    
+}
+.add:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+button:hover{
+    cursor: pointer;
+}
+.add:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+ul button{
+    /* background-color: red; */
+    
+    margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: #fff;
+  background: none;
+  color: red;
+  /* color: rgba(250, 80, 80, 0.705); */
+  border: none;
+  font-weight: bold;
+  /* flex-direction:; */
+  /* margin-left: 20px; */
+  cursor: pointer;
+}
+ul{
+    padding: 0%;
+}
+ul li{
+    padding: 0px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li div{
+display: flex;
+}
+ul li:hover{
+    background-color: #68f74b79;
+}
+ul button img:hover{
+    width: 100px;
+}
+.add{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2px 15px;
+    /* display:; */
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="main">
+<h1 class="heading">My Todo_List</h1>
+<div class="input">
+<input type="text" id="data" >
+<button class="add" id="ad" onclick="add()">+</button>
+<!-- <button class="add hide" id="co" onclick="change()">Change</button> -->
+</div>
+<div class="box">
+<ul id="store">
+
+</ul>
+</div>
+</div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
+
