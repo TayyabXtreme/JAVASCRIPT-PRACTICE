@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body style="background-color: rgb(255, 255, 255);">
+    
+    <div class="w3-container" style="margin: 100px;">
+     
+      
+      <div class="w3-card-4" style="width: 50%; margin: auto;">
+        <div class="w3-container w3-green" >
+          <h2>Sign UP</h2>
+        </div>
+    
+        <div class="w3-container w3-white">
+          <p>
+          <input class="w3-input" type="text" id="user">
+          <label>First Name</label></p>
+          <p>     
+          <input class="w3-input" type="text" id="password">
+          <label>Last Name</label></p>
+          
+          </div>
+          <div class="w3-white">
+          <input type="file" value="Upload Image" accept="image/*" id="upload" class="submit" style="margin-left: 10px; margin-bottom: 10px;"/>
+          </div>
+          <div class="button" style="margin: 10px 200px" onclick="signIn()">
+            Submit
+         </div>
+      </div>
+      
+    </div>
+        
+         
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-auth-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+    apiKey: "AIzaSyDwCV-wNWjiiYUHWoZGeJ7wclmRKJHktIc",
+    authDomain: "auth-5cd1d.firebaseapp.com",
+    databaseURL: "https://auth-5cd1d-default-rtdb.firebaseio.com",
+    projectId: "auth-5cd1d",
+    storageBucket: "auth-5cd1d.appspot.com",
+    messagingSenderId: "730502798941",
+    appId: "1:730502798941:web:016ef7b5c0c14cd59537b4"
+  };
+  firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./app.js"></script>
+</html>
