@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Authentication Form</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class ="form">
+        <h3>SignUp</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" required>
+
+        <button onclick="createAccount()" id="sub">Sign Up</button>
+        <p style="text-align: center; margin-top: 10px " id="link"><a href="./SignIn.html" style="color: white; font-size: 1em;">Go to the Login page</a></p>
+        <p style="font-size: 1em;text-align: center; margin-top: 10px; background-color: red; opacity: 0.5;border-radius: 10px; display: none;" id="error">This email or password is not valid</p>
+        <img src="https://th.bing.com/th/id/R.a463df1f4698fc59c7361cc89efe995c?rik=0tUGCJ%2bOuGIp8Q&pid=ImgRaw&r=0" alt="" id="loader" style="width: 60px; margin:10px 40% ; display: none;">
+        <!-- <div class="social">
+          <div class="go"><i class="fab fa-google"></i>  Google</div>
+          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div> -->
+      </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script>
+
+const firebaseConfig = {
+    apiKey: "AIzaSyDwCV-wNWjiiYUHWoZGeJ7wclmRKJHktIc",
+    authDomain: "auth-5cd1d.firebaseapp.com",
+    projectId: "auth-5cd1d",
+    storageBucket: "auth-5cd1d.appspot.com",
+    messagingSenderId: "730502798941",
+    appId: "1:730502798941:web:016ef7b5c0c14cd59537b4",
+    databaseURL: "https://auth-5cd1d-default-rtdb.firebaseio.com",
+  };
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+<script src="./app.js"></script>
+</html>
