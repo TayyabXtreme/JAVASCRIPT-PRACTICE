@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <!-- <form onsubmit="createAccount(this)"> -->
+        <input type="email" placeholder="Enter Email" required id="email">
+        <input type="password" placeholder="Enter Password" required id="password">
+        <br>
+        <input id="btn" type="submit" value="LOGIN" onclick="signin(this)" />
+        <img  src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca.gif" style="width: 90px;height: 90px;display: none;" id="loading" />
+        <!-- </form> -->
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDwCV-wNWjiiYUHWoZGeJ7wclmRKJHktIc",
+    authDomain: "auth-5cd1d.firebaseapp.com",
+    projectId: "auth-5cd1d",
+    storageBucket: "auth-5cd1d.appspot.com",
+    messagingSenderId: "730502798941",
+    appId: "1:730502798941:web:016ef7b5c0c14cd59537b4",
+    databaseURL: "https://auth-5cd1d-default-rtdb.firebaseio.com"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

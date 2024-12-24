@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.css" integrity="sha512-VSD3lcSci0foeRFRHWdYX4FaLvec89irh5+QAGc00j5AOdow2r5MFPhoPEYBUQdyarXwbzyJEO7Iko7+PnPuBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.min.css" integrity="sha512-UiKdzM5DL+I+2YFxK+7TDedVyVm7HMp/bN85NeWMJNYortoll+Nd6PU9ZDrZiaOsdarOyk9egQm6LOJZi36L2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div>
+        <!-- <form onsubmit="createAccount(this)"> -->
+        <input type="email" placeholder="Enter Email" required id="email">
+        <input type="password" placeholder="Enter Password" required id="password">
+        <input type="text" placeholder="Enter name" required id="Name">
+        
+        <br>
+        <input type="file" accept=".png,.jpg" id="imageSet">
+        <!-- <b>progress: <i id="progress"></i></b> -->
+        <input id="btn"  type="submit" value="Create Account" onclick="createAccount(this)" />
+        <img  src="https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca.gif" style="width: 90px;height: 90px;display: none;" id="loading" />
+        <!-- </form> -->
+
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+   <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDwCV-wNWjiiYUHWoZGeJ7wclmRKJHktIc",
+    authDomain: "auth-5cd1d.firebaseapp.com",
+    projectId: "auth-5cd1d",
+    storageBucket: "auth-5cd1d.appspot.com",
+    messagingSenderId: "730502798941",
+    appId: "1:730502798941:web:016ef7b5c0c14cd59537b4",
+    databaseURL: "https://auth-5cd1d-default-rtdb.firebaseio.com",
+
+
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.js" integrity="sha512-MnKz2SbnWiXJ/e0lSfSzjaz9JjJXQNb2iykcZkEY2WOzgJIWVqJBFIIPidlCjak0iTH2bt2u1fHQ4pvKvBYy6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.min.js" integrity="sha512-79j1YQOJuI8mLseq9icSQKT6bLlLtWknKwj1OpJZMdPt2pFBry3vQTt+NZuJw7NSd1pHhZlu0s12Ngqfa371EA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
