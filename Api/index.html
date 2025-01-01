@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Users</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-1">
+        <h1>Github Users</h1>
+        <input type="text" id="search" placeholder="Search for a user">
+        <button id="searchBtn">Search</button>
+        <div id="result" class="result">
+            <div class="card" style="width: 18rem;">
+                <img id="img" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 id="user" class="card-title">No User Search</h5>
+                  <p id="user-bio" class="card-text">No Data Found.</p>
+                 
+                </div>
+              </div>    
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+    <script src="./app.js"></script>
+</body>
+</html>
