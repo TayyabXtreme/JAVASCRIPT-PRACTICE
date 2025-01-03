@@ -1,0 +1,11 @@
+#box{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     font-family: "Anybody", sans-serif;
+
+}
+
+.space{
+    padding: 50px;
+}
